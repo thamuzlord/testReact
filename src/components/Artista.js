@@ -8,7 +8,6 @@ const Artista = ({name, image}) => (
     </div>
 )
 
-
 Artista.propTypes = {
     name: PropTypes.string,
     image: PropTypes.string,

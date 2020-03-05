@@ -8,7 +8,8 @@ const AlbumContainer = (props) => {
   async function fetchData() {
     const id = props.match.params.id
     const data = await getAlbums(id)
-    setAlbumList(data[0].albums)
+    const dataFiltered = data.filter( item => id == item.artist )
+    setAlbumList(dataFiltered[0].albums)
   }
 
   useEffect(() => {

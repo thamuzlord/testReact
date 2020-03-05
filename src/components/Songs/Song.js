@@ -1,11 +1,12 @@
 import React from 'react'
+import millisToMinutesAndSeconds from '../../utils/utils'
 import PropTypes from 'prop-types';
 
 const Song = ({ id, name, duration_ms }) => (
     <tr>
         <th>{id}</th>
         <th>{name}</th>
-        <th>{duration_ms}</th>
+        <th>{millisToMinutesAndSeconds(duration_ms)}</th>
     </tr>
 )
 

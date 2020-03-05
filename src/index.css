@@ -44,3 +44,113 @@ img{
     background-color: #212121;
     color: #ffffff;
 }
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.song-name{
+    color: #ffffff;
+}
+
+.box {
+    display: flex;
+    align-items:center;
+ }
+
+ .albumes{
+     background-color: #303030;
+ }
+
+ .music-box{
+     width: 100%;
+     height: 60px;
+     overflow: scroll;
+     overflow-x: hidden;
+     overflow-y: hidden;
+ }
+
+ .music-info{
+     width: 100%;
+     height: 50px;
+     display: flex;
+ }
+
+ .music-img{
+     width: 50px;
+     height: 50px;
+     cursor: pointer;
+ }
+
+ .music-img img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 2px 5px;
+    padding: 1px;
+}
+
+.music-name{
+    width: 350px;
+    padding: 0 5px;
+    height: 50px;
+}
+
+.music-name h6{
+   margin-top: 7px;
+   font-size: 15px;
+   font-weight: normal;
+   letter-spacing: 0.5px;
+   cursor: pointer;
+   line-height: 15px;
+}
+
+.music-name p{   
+    font-size: 10px;
+    line-height: 1px;
+    letter-spacing: 0.5px;
+    color: #e1e1e1;
+    cursor: pointer;
+ }
+
+ .music-play{
+    float: right;
+ }
+
+ hr{
+     width: 95%;
+     margin-top: 4px !important;
+     margin-bottom: 6px !important;
+     background-color: #3e3e3e;
+ }
+
+ .play-button {
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 0.4em 0px 0.5em 1em;
+    border-color: transparent transparent transparent #ececec;
+    opacity: .75; 
+    cursor: pointer;
+  }
+  
+  .play-button-outer:hover {
+    background-color: rgba(0, 0, 0, .5);
+  }
+  
+  .play-button-outer:hover .play-button {
+    opacity: 1;
+  }
+
+  .tabla-canciones{
+    width:100%;
+    color: #ffffff;
+    text-align: left;
+  }

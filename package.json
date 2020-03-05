@@ -1,8 +1,12 @@
 {
-  "homepage": "http://thamuzlord.github.io/testReact",
+  "homepage": "http://thamuzlord.github.io/good-music",
   "name": "good-music",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.3.0",
+    "node": "12.16.1"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",

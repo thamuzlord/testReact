@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/good-music/static/css/main.03c4fdd6.chunk.css",
+    "main.js": "/good-music/static/js/main.eaf10f54.chunk.js",
+    "main.js.map": "/good-music/static/js/main.eaf10f54.chunk.js.map",
+    "runtime-main.js": "/good-music/static/js/runtime-main.2080ef5c.js",
+    "runtime-main.js.map": "/good-music/static/js/runtime-main.2080ef5c.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/good-music/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.6239b7ff.chunk.js": "/good-music/static/js/2.6239b7ff.chunk.js",
+    "static/js/2.6239b7ff.chunk.js.map": "/good-music/static/js/2.6239b7ff.chunk.js.map",
+    "index.html": "/good-music/index.html",
+    "precache-manifest.040cb16ec750558a02c29927caf5ed85.js": "/good-music/precache-manifest.040cb16ec750558a02c29927caf5ed85.js",
+    "service-worker.js": "/good-music/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/good-music/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.03c4fdd6.chunk.css.map": "/good-music/static/css/main.03c4fdd6.chunk.css.map",
+    "static/js/2.6239b7ff.chunk.js.LICENSE.txt": "/good-music/static/js/2.6239b7ff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2080ef5c.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.6239b7ff.chunk.js",
+    "static/css/main.03c4fdd6.chunk.css",
+    "static/js/main.eaf10f54.chunk.js"
+  ]
+}

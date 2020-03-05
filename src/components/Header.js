@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
-const Titulo = () => <nav className="navbar navbar-expand-lg bg-nav shadow">
+const Header = () => <nav className="navbar navbar-expand-lg bg-nav shadow">
                                     <div className="container">
                                         <h3 className="navbar-brand">Prueba</h3>
                                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,4 +16,4 @@ const Titulo = () => <nav className="navbar navbar-expand-lg bg-nav shadow">
                                     </div>
                                 </nav>
 
-export default Titulo
+export default Header

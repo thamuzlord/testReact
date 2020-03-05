@@ -1,6 +1,6 @@
 import React from 'react';
-import Main from './paginas/main';
+import Router from './routers/router';
 
-const App = () => <Main />
+const App = () => <Router />
 
 export default App;

@@ -2,11 +2,11 @@ import React from 'react'
 import millisToMinutesAndSeconds from '../../utils/utils'
 import PropTypes from 'prop-types';
 
-const Song = ({ id, name, duration_ms }) => (
+const Song = ({ id, name, duration_ms, spotify_url }) => (
     <tr>
         <th>{id}</th>
         <th>{name}</th>
-        <th>{millisToMinutesAndSeconds(duration_ms)}</th>
+        <th><a href={spotify_url} target='_blank' className="play-button"></a><span>{millisToMinutesAndSeconds(duration_ms)}</span></th>
     </tr>
 )
 
